@@ -1,7 +1,3 @@
 export default function Heading({ title }) {
-  return (
-    <div>
-      <h1>{title}</h1>
-    </div>
-  )
+  return <div className="font-bold text-4xl pt-6">{title}</div>
 }
